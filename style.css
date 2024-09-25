@@ -1,6 +1,7 @@
 /* style.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Garamond";
+    letter-spacing: 0,5px;
     margin: 0;
     padding: 0;
     background-color: lightblue;
@@ -11,6 +12,10 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+#carta {
+    margin: auto;
 }
 
 nav ul {

@@ -4,8 +4,15 @@ body {
     letter-spacing: 0,5px;
     margin: 0;
     padding: 0;
+
+    background-image: url('https://imgs.search.brave.com/ywK3H_U2UuViRWXKtML-X_6KRcOKt5Hh--8xQbp0NGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QxL2I5/LzA3L2QxYjkwN2E5/NjVhMzJhN2EzMDAz/MDQzZDUwNzI1NWQx/LmpwZw');
+    background-size: cover;
+    background-position: center;   
+
     background-color: lightblue;
+
 }
+
 
 header {
     background-color: #333;
@@ -25,7 +32,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 17px;
 }
 
 nav ul li a {

@@ -54,3 +54,15 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+h1:hover {
+    color: red;
+    font-size: 2.5em;
+    transition: 2s;
+}
+
+a:hover {
+    color: #800080;
+    text-decoration: none;
+    font-weight: bold;
+}

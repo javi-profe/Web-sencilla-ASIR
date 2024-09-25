@@ -1,0 +1,56 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Sencilla</title>
+    <link rel="stylesheet" href="galeria.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenidos a la Página Web Sencilla</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="galeria">
+                <img src="https://www.esic.edu/sites/default/files/2023-07/FotoJet%20%2829%29%20%281%29.jpg"
+                    data-title="Imagen 1 - FotoJet" onclick="abrirModal(this)">
+                <img src="https://disebit.com/img/web-app-disebit.png" data-title="Imagen 2 - Disebit Web App" onclick="abrirModal(this)">
+                <img src="https://www.h2tic.com/imagenes/desarrollo-aplicaciones-web.png" data-title="Imagen 3 - Desarrollo Web" onclick="abrirModal(this)">
+                <img src="https://miro.medium.com/v2/resize:fit:725/1*yvSln9X-TPTMVZV2l5FLOA.jpeg" data-title="Imagen 4 - Diseño Responsive" onclick="abrirModal(this)">
+                <img src="https://www.solvam.es/wp-content/uploads/2018/04/daw.png" data-title="Imagen 5 - Lenguaje de Marcas" onclick="abrirModal(this)">
+                <img src="https://www.internetya.co/wp-content/uploads/2017/10/desarrollo-aplicaciones-software-nube-escritorio-colombia.jpg" data-title="Imagen 6 - Aplicaciones en la nube" onclick="abrirModal(this)">
+            </div>
+
+            <!-- Modal -->
+            <div id="modal" class="modal">
+                <span class="cerrar" onclick="cerrarModal()">&times;</span>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="staticBackdropLabel">Modal title</h1>
+                    </div>
+                    <img class="modal-imagen" id="imagenModal">
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Página Web Sencilla. Todos los derechos reservados.</p>
+    </footer>
+    <script src="galeria.js"></script>
+</body>
+
+</html>

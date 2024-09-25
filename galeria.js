@@ -20,6 +20,7 @@ function cerrarModal() {
     modal.style.display = "none";
 }
 
+
 // Cerrar el modal al hacer clic fuera de la imagen
 window.onclick = function(event) {
     var modal = document.getElementById("modal");

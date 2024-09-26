@@ -9,14 +9,14 @@ body {
     background-size: cover;
     background-position: center;   
 
-    background-color: lightblue;
+    background-color: rgb(21, 112, 143);
 
 }
 
 
 header {
 
-    background-color: #ff0000;
+    background-color: #c5bdbd;
     color: #000000;
 
     padding: 10px 0;

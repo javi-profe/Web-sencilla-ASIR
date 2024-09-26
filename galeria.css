@@ -11,6 +11,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    
 }
 
 nav ul {
@@ -45,6 +46,8 @@ footer {
 
 
 /* Estilos básicos de la galería */
+
+
 .galeria {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

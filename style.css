@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: url('https://imgs.search.brave.com/ywK3H_U2UuViRWXKtML-X_6KRcOKt5Hh--8xQbp0NGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QxL2I5/LzA3L2QxYjkwN2E5/NjVhMzJhN2EzMDAz/MDQzZDUwNzI1NWQx/LmpwZw');
+    background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-planeta-universo_826801-3305.jpg');
     background-size: cover;
     background-position: center;   
 
@@ -15,8 +15,10 @@ body {
 
 
 header {
+
     background-color: #ff0000;
     color: #000000;
+
     padding: 10px 0;
     text-align: center;
 }

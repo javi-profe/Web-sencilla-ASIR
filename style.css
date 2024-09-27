@@ -1,22 +1,20 @@
 /* style.css */
 body {
     font-family: "Garamond";
-    letter-spacing: 0,5px;
+    letter-spacing: 0.5px; /* Corregido de 0,5px a 0.5px */
     margin: 0;
     padding: 0;
 
-    background-image: url('https://imgs.search.brave.com/ywK3H_U2UuViRWXKtML-X_6KRcOKt5Hh--8xQbp0NGo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QxL2I5/LzA3L2QxYjkwN2E5/NjVhMzJhN2EzMDAz/MDQzZDUwNzI1NWQx/LmpwZw');
+    background-image: url('https://img.freepik.com/fotos-premium/fondos-pantalla-planeta-universo_826801-3305.jpg');
     background-size: cover;
     background-position: center;   
 
-    background-color: lightblue;
-
+    background-color: rgb(21, 112, 143);
 }
 
-
 header {
-    background-color: ##ba3636;
-    color: #fff;
+    background-color: #c5bdbd; /* Seleccioné el color de la rama 'main' */
+    color: #000000;
     padding: 10px 0;
     text-align: center;
 }
@@ -46,11 +44,24 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ff0000;
+    color: #000000;
     text-align: center;
     padding: 12px 0;
     position: fixed;
     width: 90%;
     bottom: 0;
 }
+
+h1:hover {
+    color: red;
+    font-size: 2.5em;
+    transition: 2s;
+}
+
+a:hover {
+    color: #800080;
+    text-decoration: none;
+    font-weight: bold;
+}
+

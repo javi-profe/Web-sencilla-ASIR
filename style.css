@@ -88,3 +88,26 @@ nav ul li a:hover {
     background-color: #f2f2f2;
     font-weight: bold;
 }
+#servicios {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.servicio {
+    text-align: center;
+}
+
+.servicio i {
+    font-size: 40px;
+    color: #4A90E2;
+}
+
+.servicio h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.servicio p {
+    font-size: 16px;
+}

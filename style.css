@@ -82,3 +82,9 @@ a:hover {
     font-weight: bold;
 }
 
+/* he añadido un efecto hover para los enlaces del menú */
+nav ul li a:hover {
+    color: #ff6600;
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

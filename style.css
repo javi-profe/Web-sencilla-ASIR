@@ -111,3 +111,26 @@ nav ul li a:hover {
 .servicio p {
     font-size: 16px;
 }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
